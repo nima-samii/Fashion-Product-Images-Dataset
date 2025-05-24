@@ -79,40 +79,38 @@ python Experiment.py
 ### Customizing Experiments
 
 You can modify Experiment.py to:
-
-- Change target classification category (`role`)
-- Adjust training parameters (epochs, learning rate)
-- Switch model architecture (`network_structure`)
-- Enable/disable data augmentation
+    - Change target classification category (`role`)
+    - Adjust training parameters (epochs, learning rate)
+    - Switch model architecture (`network_structure`)
+    - Enable/disable data augmentation
 
 Available model architectures:
-
-- `CNN` - Basic CNN
-- `CNN_V1` - CNN with BatchNorm
-- `CNN_V2` - CNN with BatchNorm and Dropout
-- `efficientnet` - EfficientNetB4
-- `resnet` - ResNet50
+    - `CNN` - Basic CNN
+    - `CNN_V1` - CNN with BatchNorm
+    - `CNN_V2` - CNN with BatchNorm and Dropout
+    - `efficientnet` - EfficientNetB4
+    - `resnet` - ResNet50
 
 ## Results
 
 The training process generates:
-- Model checkpoints (saved in `Output_Models/`)
-- Training history plots (accuracy/loss)
-- CSV files with metrics
-- Augmentation reports (when enabled)
+    - Model checkpoints (saved in `Output_Models/`)
+    - Training history plots (accuracy/loss)
+    - CSV files with metrics
+    - Augmentation reports (when enabled)
 
 ## Key Implementation Details
 
 1. **Data Preprocessing**:
-- Automatic class filtering (minimum samples per class)
-- Smart color grouping (e.g., "Navy Blue" → "Blue")
-- Custom image preprocessing for each model type
+    - Automatic class filtering (minimum samples per class)
+    - Smart color grouping (e.g., "Navy Blue" → "Blue")
+    - Custom image preprocessing for each model type
 
 2. **Class Imbalance Handling**:
-- Automatic class weighting
-- Smart augmentation targeting minority classes
+    - Automatic class weighting
+    - Smart augmentation targeting minority classes
 
 3. **Training Optimization**:
-- Custom F1-score callback
-- Early stopping based on validation F1
-- Learning rate reduction on plateau
+    - Custom F1-score callback
+    - Early stopping based on validation F1
+    - Learning rate reduction on plateau
