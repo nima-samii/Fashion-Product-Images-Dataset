@@ -114,4 +114,3 @@ python Experiment.py
    - Custom F1-score callback
    - Early stopping based on validation F1
    - Learning rate reduction on plateau
-   oo
