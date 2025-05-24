@@ -78,13 +78,13 @@ python Experiment.py
 
 ### Customizing Experiments
 
-You can modify Experiment.py to:
+- You can modify Experiment.py to:
     - Change target classification category (`role`)
     - Adjust training parameters (epochs, learning rate)
     - Switch model architecture (`network_structure`)
     - Enable/disable data augmentation
 
-Available model architectures:
+- Available model architectures:
     - `CNN` - Basic CNN
     - `CNN_V1` - CNN with BatchNorm
     - `CNN_V2` - CNN with BatchNorm and Dropout
@@ -93,7 +93,7 @@ Available model architectures:
 
 ## Results
 
-The training process generates:
+- The training process generates:
     - Model checkpoints (saved in `Output_Models/`)
     - Training history plots (accuracy/loss)
     - CSV files with metrics
