@@ -23,6 +23,8 @@ This project implements deep learning models to classify fashion product images 
 ├── Output                    # Stores training logs and results
 │
 ├── Output_Models             # Stores saved models
+|
+├── caption_generation.py     # geneate caption & predict images
 │
 └── Experiment.py             # Main script to run experiments
 ```
