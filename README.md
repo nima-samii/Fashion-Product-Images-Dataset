@@ -80,14 +80,14 @@ Data/
 ## Usage
 
 Run the main experiment script:
-``` py
+```bash
 python Experiment.py
 ```
 
 ### Image Caption Generation
 
 Generate captions and annotated images:
-```python
+```bash
 python caption_generation.py
 ```
 
