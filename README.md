@@ -20,6 +20,8 @@ This project implements deep learning models to classify fashion product images 
 ├── Tools
 │ ├── callbacks.py            # Custom training callbacks (F1 monitoring, early stopping)
 │
+├── annotated_images          # Images with classification and caption annotations
+|
 ├── Output                    # Stores training logs and results
 │
 ├── Output_Models             # Stores saved models
@@ -61,6 +63,11 @@ The project uses the [Fashion Product Images Dataset](https://www.kaggle.com/dat
    - Visualizes training history (accuracy/loss curves)
    - Saves best model based on validation F1-score
 
+4. **Image Captioning**:
+   - Generates descriptive captions using BLIP model
+   - Combines classification results with generative AI
+   - Creates annotated images with classification results and captions
+
 ## Installation
 
 1. Download the dataset from Kaggle and place it in the `Data/` directory:
@@ -72,11 +79,15 @@ Data/
 
 ## Usage
 
-Run the main experiment script:
+- Run the main experiment script:
 
-```
+``` python
 python Experiment.py
 ```
+
+### Image Caption Generation
+
+Generate captions and annotated images:
 
 ### Customizing Experiments
 
