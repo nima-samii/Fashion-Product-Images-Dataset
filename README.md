@@ -95,6 +95,8 @@ Example output images will be saved in `annotated_images/`
 
 ### Example Annotated Image
 
+![Fashion Product](annotated_images/1533_annotated.jpg)
+*Caption: A stylish white men caps from nike*
 
 ### Customizing Experiments
 
