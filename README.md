@@ -95,7 +95,7 @@ Example output images will be saved in `annotated_images/`
 
 ### Example Annotated Image
 
-![Fashion Product](annotated_images/1533_annotated.jpg)
+<img src="annotated_images/1533_annotated.jpg" alt="Fashion Product" width="400" height="300">
 *Caption: A stylish white men caps from nike*
 
 ### Customizing Experiments
