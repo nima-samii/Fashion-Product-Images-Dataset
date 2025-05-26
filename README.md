@@ -79,15 +79,22 @@ Data/
 
 ## Usage
 
-- Run the main experiment script:
-
-``` python
+Run the main experiment script:
+``` py
 python Experiment.py
 ```
 
 ### Image Caption Generation
 
 Generate captions and annotated images:
+```python
+python caption_generation.py
+```
+
+Example output images will be saved in `annotated_images/`
+
+### Example Annotated Image
+
 
 ### Customizing Experiments
 
